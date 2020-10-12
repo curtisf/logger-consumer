@@ -1,0 +1,24 @@
+{
+  "name": "logger-consumer",
+  "version": "0.1.0",
+  "description": "the consumer of events emitted by logger-socket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Curtis Fowler (caf203@gmail.com)",
+  "license": "GNU GPLv3",
+  "dependencies": {
+    "aes256": "^1.0.4",
+    "bee-queue": "^1.2.3",
+    "chalk": "^4.1.0",
+    "detritus-client-socket": "^0.6.1",
+    "ioredis": "^4.17.3",
+    "pg": "^8.3.0",
+    "pg-format": "^1.0.4",
+    "superagent": "^5.3.1",
+    "util": "^0.12.3",
+    "uuid": "^8.2.0",
+    "ws": "^7.3.0"
+  }
+}
